@@ -803,6 +803,32 @@ p {
     }
 }
 
+.header-content .header-shape.shape-five-one {
+    right: 25% !important;
+    bottom: 48% !important;
+    left: auto !important;
+    top: auto !important;
+    opacity: 0.1;
+}
+
+.header-content .header-shape.shape-five-one img {
+    width: 110px;
+}
+
+@media (max-width: 767px) {
+    .header-content .header-shape.shape-five-one {
+        right: 20% !important;
+        bottom: 55% !important;
+        opacity: 0.2;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-content .header-shape.shape-five-one img {
+        width: 40px;
+    }
+}
+
 .header-content .header-shape.shape-five {
     right: 30px !important;
     bottom: 35% !important;
